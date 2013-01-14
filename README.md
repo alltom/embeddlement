@@ -9,6 +9,6 @@ Gets the HTML for a static image preview of a URL.
 
 `EmbedHtmlAll`: tries both of those in order
 
-All three return an HTML snippet like this (with width and height attributes on the image when possible):
+All three return an HTML snippet like this (with width and height attributes on the image when available):
 
     <a href="http://example.com/"><img src="http://example.com/example.jpg" /></a>
